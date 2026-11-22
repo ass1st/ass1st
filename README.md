@@ -1,4 +1,4 @@
-# ass1st
+# assist1st
 
 **AI 应用 / 产品助理（实习）** · 贵州大学（211）2028 届 · 浙江大学交换（2026.09–2027.06）
 **可立即到岗 · 连续 6 个月 · 每周 5 天** · 常驻杭州
@@ -15,17 +15,17 @@
 ### 三件能点开的东西
 
 **① 象棋决策训练器**｜把「看棋谱」改成「每手做一次选择，立刻知道自己差在哪」。单文件网页、零依赖：单题 / 套题两模式、每题 20 秒、选项随机、全程记轨迹，结束按「现状 / 预期 / 差距」三报给结论。
-[→ 在线试玩](https://ass1st.github.io/xiangqi-coach/) · [→ 源码（MIT）](https://github.com/ass1st/xiangqi-coach)
+[→ 在线试玩](https://assist1st.github.io/xiangqi-coach/) · [→ 源码（MIT）](https://github.com/assist1st/xiangqi-coach)
 
 **② 收藏视频工具箱**｜自己天天在用的本地工具：1794 条收藏、1156 个作者，按类目 / 月份 / 收藏顺序筛选、本地归档、批量导出。三个关键设计：增量判定（连续 8 批无新增即判「追平」，无变化 24 秒收工）、100 条/页渲染切分、用归档代替取消收藏。
-[→ 源码与设计文档](https://github.com/ass1st/favtool-video-lib)
+[→ 源码与设计文档](https://github.com/assist1st/favtool-video-lib)
 
 **③ 非标商品运营**｜自营小生意跑通的完整链路：5 维估值模型 → 价格错配识别 → 买家三层分层 → 售后留存。月均 30 笔，累计 100+ 笔，0 差评、0 纠纷。
-[→ 脱敏案例](https://github.com/ass1st/field-notes)
+[→ 脱敏案例](https://github.com/assist1st/field-notes)
 
 ### 另外
 
-- **个人 AI 助理**：三层记忆架构、13 条治理规则、8 份速查文档、双 AI 互审，6 版迭代 → [设计与踩坑](https://github.com/ass1st/personal-ai-assistant-notes)
+- **个人 AI 助理**：三层记忆架构、13 条治理规则、8 份速查文档、双 AI 互审，6 版迭代 → [设计与踩坑](https://github.com/assist1st/personal-ai-assistant-notes)
 
 ### 关于这些仓库
 
