@@ -1,0 +1,56 @@
+# 上传时把本文件改名为 .gitignore（前面那个点不能少）
+# 纯展示仓库用不上大部分条目，但第一天就放上，防止日后误传本地文件。
+
+# 凭据与密钥（最高优先级）
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+*secret*
+*credential*
+config.json
+settings.local.json
+
+# 真实数据与台账（绝不上传）
+/data/raw/
+/台账/
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.jsonl
+
+# 原始截图与录屏（打码后的放 assets/ 才可提交）
+/screenshots/raw/
+*.psd
+*.mp4
+*.mov
+
+# 可运行实现与依赖（本方案核心层，永不上传）
+/src/
+/scripts/
+/dist/
+/build/
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# 本地与个人文件
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*~
+.idea/
+.vscode/
+
+# 记忆体系真实内容（W1 专属，最高优先级）
+/memory/
+/memories/
+/private/
